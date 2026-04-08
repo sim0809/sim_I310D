@@ -1,12 +1,12 @@
-def calculate_volume_of_sphere(radius)
-	pi = 3.14
-	area = pi * radius * radius
-	return area
+def calculate_volume_of_sphere(radius):
+    pi = 3.14
+    volume = (4/3) * pi * radius * radius * radius
+    return volume
 
 radius1 = 50
-area1 = compute_area_of_circle(radius1)
-print(f"The area of circle with radius {radius1} is: {area1}")
+volume1 = calculate_volume_of_sphere(radius1)
+print(f"The volume of sphere with radius {radius1} is: {volume1}")
 
 radius2 = 80
-area2 = compute_area_of_circle(radius2)
-print(f"The area of circle with radius {radius2} is: {area2}")
+volume2 = calculate_volume_of_sphere(radius2)
+print(f"The volume of sphere with radius {radius2} is: {volume2}")
